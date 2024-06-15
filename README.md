@@ -148,7 +148,7 @@ Hashes a string synchronously.
 
 - `digest` (optional): The hash algorithm. Default is 'sha512'.
 
-- Returns: The hashed string in the format salt$hash.
+- Returns: The hashed string in the format `salt$hash`.
 
 ### `compareSync(string, hashedString, iterations = 10000, keyLength = 64, digest = 'sha512')`
 
