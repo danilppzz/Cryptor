@@ -5,10 +5,8 @@
 <div align="center">
     <h1>Cryptor</h1>
     <img src="https://img.shields.io/github/license/danilppzz/Cryptor">
-    <img src="https://img.shields.io/github/issues/danilppzz/Cryptor
-    ">
-    <img src="https://img.shields.io/github/checks-status/danilppzz/Cryptor/main
-    ">
+    <img src="https://img.shields.io/github/issues/danilppzz/Cryptor">
+    <img src="https://img.shields.io/github/checks-status/danilppzz/Cryptor/main">
 </div>
 
 # Description
