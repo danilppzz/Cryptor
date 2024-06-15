@@ -14,5 +14,8 @@
     "security"
   ],
   "author": "danilppzz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
 }
