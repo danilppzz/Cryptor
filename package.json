@@ -1,6 +1,6 @@
 {
   "name": "cryptor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "A simple cryptographic library for hashing and comparing strings using Node.js crypto module.",
   "main": "cryptor.js",

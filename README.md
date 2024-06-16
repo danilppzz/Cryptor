@@ -92,7 +92,28 @@ console.log('Do they match? (Sync)', isMatchSync);
 
 ---
 
-## Crypto Wiki
+### Encrypt & Decrypt Methods
+
+`Encrypt` & `Decrypt` must be async.
+
+```js
+(async () => {
+    const secret = 'my_secret';
+    const data = 'Hello, world!';
+
+    try {
+        const encrypted = await encryptString(secret, data);
+        console.log(`Encrypted: ${encrypted}`);
+
+        const decrypted = await decryptString(secret, encrypted);
+        console.log(`Decrypted: ${decrypted}`);
+    } catch (error) {
+        console.error(error);
+    }
+})();
+```
+
+## Cryptor Wiki
 
 ### `generateSalt(length = 16)`
 
