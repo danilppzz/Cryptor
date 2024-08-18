@@ -18,7 +18,7 @@
 You can install `cryptor` from npm:
 
 ```bash
-npm install cryptor
+npm install @tekit/crypto
 ```
 
 ## Usage
